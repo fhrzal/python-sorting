@@ -39,7 +39,7 @@ def merge_sort(arr, level=0):
         kon = input("klik enter >>")
 
 # Contoh penggunaan
-os.system("clear")
+os.system('cls' if os.name == 'nt' else 'clear')
 arr = [38, 27, 43, 3, 9, 82, 10]
 print("Array sebelum diurutkan:", arr,"\n")
 print(f"total array = ",len(arr))
