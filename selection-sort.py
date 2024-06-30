@@ -15,7 +15,7 @@ def selection_sort(arr):
         print(f"Langkah {i+1}: Menukar elemen index {i} dengan elemen index {min_idx}, Array sekarang: {arr}\n")
         kon = input("klik enter >>")
 
-    os.system("clear")    
+    oos.system('cls' if os.name == 'nt' else 'clear')
     print("Array telah diurutkan:", arr)
 
 # Contoh penggunaan
